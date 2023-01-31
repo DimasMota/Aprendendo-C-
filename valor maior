@@ -1,0 +1,28 @@
+
+using System;
+class HelloWorld {
+  static void Main() {
+      int valor1;
+      int valor2;
+      int valor3;
+      Console.WriteLine("Insira o 1º Valor");
+      valor1= Convert.ToInt32(Console.ReadLine());
+      Console.WriteLine("Insira o 2º Valor:");
+      valor2= Convert.ToInt32(Console.ReadLine());
+      Console.WriteLine("Insira o 3º Valor: ");
+      valor3 = Convert.ToInt32(Console.ReadLine());
+      
+      if (valor1>valor2 & valor1>valor3)
+      {
+          Console.WriteLine("O valor maior é: "+ valor1);
+      } else if (valor2>valor3)
+      {
+          Console.WriteLine("O valor maior é: "+ valor2);
+      } else
+      {
+          Console.WriteLine("O valor maior é: "+ valor3);
+      }
+      
+            Console.WriteLine("Dimas Martins Mota");
+    }
+}
